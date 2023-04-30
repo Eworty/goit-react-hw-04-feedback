@@ -35,5 +35,5 @@ Statistics.propTypes = {
   neutral: PropTypes.number,
   bad: PropTypes.number,
   total: PropTypes.number,
-  positivePercentage: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  positivePercentage: PropTypes.number.isRequired,
 };
